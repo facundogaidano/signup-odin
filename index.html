@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sign up</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="cover">
+      <div class="logo-wrapper">
+        <img src="./assets/images/odin-lined.png" alt="Odin">
+        <span>ODIN</span>
+      </div>
+      <span class="image-credit">
+        Photo by
+        <a target="_blank" href="https://unsplash.com/@haliewestphoto" >
+          Halie West
+        </a>
+        on
+        <a target="_blank" href="https://unsplash.com/">Unsplash</a>
+      </span>
+    </div>
+    <div class="content">
+      <div class="marketing-text">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>
+          Sign up <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to</p>
+      </div>
+      <form id="sign-up-form">
+        <div class="card">
+          <h2>Let's do this!</h2>
+          <div class="form-inputs">
+            <div class="input-row">
+              <div class="form-item">
+                <label for="">FIRST NAME</label>
+                <input required type="text" id="first-name">
+              </div>
+              <div class="form-item">
+                <label for="">LAST NAME</label>
+                <input required type="text" id="last-name">
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="form-item">
+                <label for="">EMAIL</label>
+                <input required type="email" placeholder="your@email.com" id="email">
+              </div>
+              <div class="form-item">
+                <label for="">PHONE NUMBER</label>
+                <input required type="number" placeholder="1199999999" id="phone-number">
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="form-item">
+                <label for="">PASSWORD</label>
+                <input required type="password" id="password">
+                <span class="input-error">*Passwords do not match</span>
+              </div>
+              <div class="form-item">
+                <label for="">CONFIRM PASSWORD</label>
+                <input required type="password" id="confirm-password">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="sign-up-btn"> Create Account </button>
+          <p>
+            Already has an account?
+            <a href="#">Login</a>
+          </p>
+        </div>
+      </form>
+  </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
